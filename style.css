@@ -1,0 +1,24 @@
+body {
+  font-family: Georgia, serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.book img {
+  width: 120px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+a {
+  color: #2a5db0;
+  text-decoration: none;
+}
